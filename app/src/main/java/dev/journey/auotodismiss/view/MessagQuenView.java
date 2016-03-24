@@ -19,7 +19,7 @@ import android.view.animation.AnimationUtils;
 
 import dev.journey.autodismiss.R;
 
-/*
+/**
  * gwj
  * 自定义控件  实现自动消失 控件 回收
  */
@@ -38,7 +38,7 @@ public class MessagQuenView extends ViewGroup {
     }
 
     /*
-     * 回收线程， 每隔一段时间 去检查 过期的 View 触发回收事件
+     * 回收线程， 每隔一段时间去检查过期的View 触发回收事件
      */
     private ScheduledExecutorService mservice = Executors.newSingleThreadScheduledExecutor();
 
