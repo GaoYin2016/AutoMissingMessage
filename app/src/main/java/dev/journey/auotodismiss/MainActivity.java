@@ -144,7 +144,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         msgMsg.what = 1;
         msgMsg.arg1 = 1;//点赞
         int random = (int) (Math.random() * 100 + 1) % 14;
-        Toast.makeText(this, "" + random, Toast.LENGTH_SHORT).show();
         msgMsg.arg2 = random;
         msgMsg.obj = mEdMsg.getText().toString();
 
