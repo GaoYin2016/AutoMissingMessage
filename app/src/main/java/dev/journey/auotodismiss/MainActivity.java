@@ -61,6 +61,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnSendMsg.setOnClickListener(this);
         btnJoin.setOnClickListener(this);
 
+
+        Toast.makeText(this, "a", Toast.LENGTH_SHORT).show();
     }
 
 
